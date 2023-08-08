@@ -1,0 +1,59 @@
+body {
+    width: 300px;
+    min-height: 200px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flashcard-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #answer {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container button:active {
+    background-color: #003c80;
+  }
+  
+  .button-container button:focus {
+    outline: none;
+  }
+  
